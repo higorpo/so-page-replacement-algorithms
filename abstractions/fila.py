@@ -1,3 +1,6 @@
+from config.config import TOTAL_QUADROS_MAX
+
+
 class Fila:
 
     def __init__(self):
@@ -22,4 +25,4 @@ class Fila:
 
     @property
     def is_full(self) -> bool:
-        return self.size == 64
+        return self.size == TOTAL_QUADROS_MAX

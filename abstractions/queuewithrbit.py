@@ -1,3 +1,6 @@
+from config.config import TOTAL_QUADROS_MAX
+
+
 class QueueWithRBit:
 
     def __init__(self):
@@ -51,7 +54,7 @@ class QueueWithRBit:
 
     @property
     def max_size(self) -> int:
-        return 64
+        return TOTAL_QUADROS_MAX
 
     @property
     def is_full(self) -> bool:

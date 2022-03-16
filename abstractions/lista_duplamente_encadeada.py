@@ -1,3 +1,4 @@
+from config.config import TOTAL_QUADROS_MAX
 from .pagefault import PageFault
 from .item import Item
 
@@ -144,4 +145,4 @@ class ListaDuplamenteEncadeada:
 
     @property
     def max_size(self):
-        return 64
+        return TOTAL_QUADROS_MAX
