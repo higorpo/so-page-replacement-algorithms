@@ -6,7 +6,7 @@ from utils.terminal_colors import bcolors, Terminal
 
 
 def get_pages():
-    file = open("./tests/test4.txt", "r")
+    file = open("./tests/test.txt", "r")
     pages = []
     for line in file:
         pages = line.split(', ')
